@@ -1,8 +1,8 @@
 // Write your solution in this file!
 function drivers(name, address){
   return{
-    name:,
-    address:,
+    name:name,
+    address:address,
   };
 }
 let driver=drivers()
