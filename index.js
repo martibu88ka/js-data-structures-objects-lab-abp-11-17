@@ -6,3 +6,10 @@ function drivers(name, address){
   };
 }
 let driver=drivers("Sam","11 Broadway")
+
+function updateDriverWithKeyAndValue(driver,name,"Sam"){
+  const newdriver={...driver};
+  newdriver[name]="Sam";
+  return newdriver;
+
+}
