@@ -1,7 +1,7 @@
 // Write your solution in this file!
-let driver = function drivers(name, address){
-  return{
-    name:name,
+function drivers(){
+  let driver = {
+    name: name,
     address:address,
-  };
+  }
 }
