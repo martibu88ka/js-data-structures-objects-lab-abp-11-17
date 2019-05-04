@@ -5,8 +5,6 @@ function drivers(name, address){
     address:address,
   };
 }
-let driver=drivers()
+let driver=drivers("Sam","11 Broadway")
 
-function updateDriverWithKeyAndValue(driver,name, "Sam"){
-  
-}
+
