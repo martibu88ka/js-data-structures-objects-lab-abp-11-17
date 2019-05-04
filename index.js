@@ -1,7 +1,8 @@
 // Write your solution in this file!
-let driver = [function drivers(){
-  console.log = driver;
-}]
-function updateDriverWithKeyAndValue(driver, 'address', '11 Broadway'){}
-===
-function updateDriverWithKeyAndValue(driver, 'name', 'Sam'){}
+function drivers(name, address){
+  return{
+    name:name,
+    address:address,
+  };
+}
+let driver=drivers ("Sam", "11 Broadway");
