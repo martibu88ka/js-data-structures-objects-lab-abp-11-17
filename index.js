@@ -5,4 +5,4 @@ function drivers(name, address){
     address:address,
   };
 }
-let driver=drivers ("Sam", "11 Broadway");
+let driver=drivers()
