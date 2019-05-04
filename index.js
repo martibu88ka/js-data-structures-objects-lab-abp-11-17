@@ -5,5 +5,5 @@ function updateDriverWithKeyAndValue(driver, name, "Sam"){
 
   newdriver[name]="Sam";
 
-  return newdriver.name;
+  return newdriver;
 }
