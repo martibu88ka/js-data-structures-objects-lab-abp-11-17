@@ -5,11 +5,3 @@ function drivers(name, address){
     address:address,
   };
 }
-let driver=drivers(name, address)
-
-function updateDriverWithKeyAndValue(driver,name,"Sam"){
-  const newdriver={...driver};
-  newdriver[name]="Sam";
-  return newdriver;
-
-}
