@@ -1,5 +1,5 @@
 // Write your solution in this file!
-let driver = {name:"Sam"}
+let driver = {}
 function updateDriverWithKeyAndValue(driver, name, Sam){
   const newdriver = { ...driver };
 
