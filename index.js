@@ -4,5 +4,5 @@ let driver = {
   address:'address'
 }
 function updateDriverWithKeyAndValue(driver, name, Sam){
-  let newdriver={...driver};
+return Object.assign ({},driver,{[name]:Sam});
 }
