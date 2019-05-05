@@ -6,3 +6,4 @@ let driver = {
 function updateDriverWithKeyAndValue(driver, name, Sam){
 return Object.assign ({},driver,{[name]:Sam});
 }
+function destructivelyUpdateDriverWithKeyAndValue(driver, name, Sam){}
