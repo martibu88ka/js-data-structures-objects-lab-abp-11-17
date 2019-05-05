@@ -3,3 +3,6 @@ let driver = {
   name: 'name',
   address:'address'
 }
+function updateDriverWithKeyAndValue(driver, name, Sam){
+  let newdriver={...driver};
+}
