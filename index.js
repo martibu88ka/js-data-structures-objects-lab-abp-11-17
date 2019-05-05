@@ -3,9 +3,10 @@ let driver = {
   name: 'name',
   address:'address'
 }
-function updateDriverWithKeyAndValue(driver, name, Sam){
-return Object.assign ({},driver,{[name]:Sam});
+function updateDriverWithKeyAndValue(driver, address, "11 Broadway"){
+return Object.assign ({},driver,{[address]:"11 Broadway"});
 }
+
 function destructivelyUpdateDriverWithKeyAndValue(driver, name, Sam){
   return Object.assign (driver, {[name]:Sam});
 }
